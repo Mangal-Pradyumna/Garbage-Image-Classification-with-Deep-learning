@@ -13,3 +13,29 @@ Key Features:
 **Technologies**: Python, TensorFlow/PyTorch, OpenCV, custom convolutional neural networks, data preprocessing and augmentation libraries
 
 **Applications**: Environmental sustainability, automated waste management systems, recycling optimization, and smart city initiatives.
+
+This project focuses on **classifying garbage images** into different categories using a Convolutional Neural Network (CNN).  
+The dataset is hosted on **Kaggle** and can be automatically downloaded using the provided script.
+
+---
+
+## 📂 Project Structure
+Garbage-Image-Classification-using-CNN/
+│── download_dataset.py # Script to download dataset from Kaggle
+│── notebooks/ # Jupyter notebooks for experiments
+│── src/ # Source code for model and training
+│── data/ # Dataset will be downloaded here
+│── README.md # Project documentation
+
+## 📥 Download Dataset
+
+1. **Get Kaggle API Token**  
+   - Go to [Kaggle → Account → API → Create New Token](https://www.kaggle.com/account)  
+   - This downloads a file named `kaggle.json`  
+   - Place it in:  
+     - **Linux/Mac:** `~/.kaggle/kaggle.json`  
+     - **Windows:** `C:\Users\<username>\.kaggle\kaggle.json`
+
+2. **Install dependencies**  
+   ```bash
+   pip install kaggle
