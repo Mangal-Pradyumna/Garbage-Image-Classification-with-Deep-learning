@@ -1,4 +1,4 @@
-# Garbage-Image-Classification-using-CNN
+# Garbage Image Classification with Deep learning
 This project develops a deep learing-based image classification system to automatically categorize waste items into different types such as paper, metal, plastic, glass, cardboard, and general trash. Using convolutional neural networks trained from scratch, the system aims to achieve high accuracy in distinguishing between various waste categories.
 
 The model will be trained on the Garbage Dataset Classification from Kaggle, which contains labeled images of different waste types. The project focuses on creating a custom CNN architecture that can distinguish between biodegradable and non-biodegradable waste while further categorizing items into specific subcategories such as e-waste, food waste, and plastic bottles.
